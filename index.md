@@ -1,4 +1,3 @@
-# Digital Twin-Enabled System Resilience
 [![DT_fast_icon](https://user-images.githubusercontent.com/18548065/180711420-8e03247e-5803-4943-8a48-6b4e856b974f.png)](https://player.vimeo.com/video/733100345)
 [Future Resilient Systems website](https://frs.ethz.ch/research/cyber-physical-systems/digital-twin-enabled-system-resilience.html)
 
