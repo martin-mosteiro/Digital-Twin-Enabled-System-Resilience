@@ -36,12 +36,18 @@ The project is divided into XXX sections, each focusing on one aspect relevant t
 
 ### Digital twin dashboard
 <img src="https://user-images.githubusercontent.com/18548065/180699210-ad956bba-2c69-4f9d-8177-3444abed5e1f.JPG" width="650" />
+We are developing a digital twin platform through a web application for NUS campus with around 300 buildings.
+• Build user interactive digital twin dashboard for
+decision making with visualisations of 3D campus, realtime
+data from sensors, energy demand simulation results,
+occupancy rates from WiFi data, and input scenarios.
 
 #### Publications
 * Alva P., Mosteiro-Romero M., Miller C., and Stouffs R., 2022. “Digital twin-based resilience evaluation of district-scale archetypes: A COVID-19 scenario case study using a university campus pilot”. In: _POST-CARBON, Proceedings of the 27th CAADRIA Conference_, Sydney, Australia, April 9-15 2022, vol 1, pp. 525-534.
 
-### Physical model and data visualization
+### Building 3D model and data visualization
 <img src="https://user-images.githubusercontent.com/18548065/180714022-f525e330-ef4b-46b4-9797-e699c10dd6fd.png" width="650" />
+Create 3D building models and run an energy demand simulation for the campus.
 
 #### Publications
 * Alva P., Mosteiro-Romero M., Miller C., and Stouffs R., 2022. “Digital twin-based resilience evaluation of district-scale archetypes: A COVID-19 scenario case study using a university campus pilot”. In: _POST-CARBON, Proceedings of the 27th CAADRIA Conference_, Sydney, Australia, April 9-15 2022, vol 1, pp. 525-534.
