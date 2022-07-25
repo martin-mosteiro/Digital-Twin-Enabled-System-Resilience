@@ -1,37 +1,67 @@
-## Welcome to GitHub Pages
+# Digital Twin-Enabled System Resilience
+[![DT_fast_icon](https://user-images.githubusercontent.com/18548065/180711420-8e03247e-5803-4943-8a48-6b4e856b974f.png)](https://player.vimeo.com/video/733100345)
+[Future Resilient Systems website](https://frs.ethz.ch/research/cyber-physical-systems/digital-twin-enabled-system-resilience.html)
 
-You can use the [editor on GitHub](https://github.com/martin-mosteiro/digital-twin-draft/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Project duration
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+1 March 2021 - 30 September 2024
 
-### Markdown
+## Stakeholders
+### Execution
+* National University of Singapore (NUS)
+* Future Resilient Systems (FRS)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Funding & programme coordinators
+* National Research Foundation Singapore (NRF)
 
-```markdown
-Syntax highlighted code block
+### Collaborators
+* ETH Zürich
 
-# Header 1
-## Header 2
-### Header 3
+## Objective
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+## Team
+### Principal Investigators
+* Prof. Rudi Stouffs (PI, NUS Department of Architecture)
+* Prof. Clayton Miller (co-PI, NUS Department of the Built Environment)
 
-**Bold** and _Italic_ and `Code` text
+### Research fellows
+* Dr. Martín Mosteiro-Romero (NUS)
+* Pradeep Alva (NUS)
 
-[Link](url) and ![Image](src)
-```
+### Collaborators
+* Dr. Andrea Bartolini (ETH)
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+## Project structure and output
+The project is divided into XXX sections, each focusing on one aspect relevant to XXX.
 
-### Jekyll Themes
+### Digital twin dashboard
+<img src="https://user-images.githubusercontent.com/18548065/180699210-ad956bba-2c69-4f9d-8177-3444abed5e1f.JPG" width="750" />
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/martin-mosteiro/digital-twin-draft/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+#### Publications
+* Alva P., Mosteiro-Romero M., Miller C., and Stouffs R., 2022. “Digital twin-based resilience evaluation of district-scale archetypes: A COVID-19 scenario case study using a university campus pilot”. In: _POST-CARBON, Proceedings of the 27th CAADRIA Conference_, Sydney, Australia, April 9-15 2022, vol 1, pp. 525-534.
 
-### Support or Contact
+### Physical model and data visualization
+<img src="https://user-images.githubusercontent.com/18548065/180714022-f525e330-ef4b-46b4-9797-e699c10dd6fd.png" width="750" />
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+#### Publications
+* Alva P., Mosteiro-Romero M., Miller C., and Stouffs R., 2022. “Digital twin-based resilience evaluation of district-scale archetypes: A COVID-19 scenario case study using a university campus pilot”. In: _POST-CARBON, Proceedings of the 27th CAADRIA Conference_, Sydney, Australia, April 9-15 2022, vol 1, pp. 525-534.
+
+### Energy demand model
+<img src="https://user-images.githubusercontent.com/18548065/180712380-8a4a074f-7a28-4bba-9de5-c28d956768bb.png" width="500" />
+
+#### Publications
+* Mosteiro-Romero, M., Alva, P., Miller, C. and Stouffs, R., 2022. “Towards occupant-driven district energy system operation: A digital twin platform for energy resilience and occupant well-being." In: _PLEA 2022: Will Cities Survive?_, Santiago, Chile, November 23–25 2020.
+* Mosteiro-Romero M., Miller C., Chong A., and Stouffs R., 2022. "Elastic buildings: Calibrated district-scale simulation of occupant-flexible campus operation for hybrid work optimization". Submitted to _Applied Energy_.
+
+### Building occupant modeling
+<img src="https://user-images.githubusercontent.com/18548065/180719435-f171fdcd-4ff7-48d8-ac58-cedad4683965.png" width="750" />
+
+#### Publications
+* Mosteiro-Romero M., Miller C., Chong A., and Stouffs R., 2022. "Elastic buildings: Calibrated district-scale simulation of occupant-flexible campus operation for hybrid work optimization". Submitted to _Applied Energy_.
+
+## Other publications
+* Alva P., Biljecki F., and Stouffs R., 2022. "Use cases for district-scale digital twins”. Full paper submitted to SDSC & 3DGeoinfo conference 2022.
+
+## Acknowledgments
+The research was conducted at the Singapore-ETH Centre, which was established collaboratively between ETH Zürich and the National Research Foundation Singapore. This research is supported by the National Research Foundation, Prime Minister's Office, Singapore under its Campus for Research Excellence and Technological Enterprise (CREATE) program.
