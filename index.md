@@ -28,9 +28,6 @@
 * Dr. Martín Mosteiro-Romero (NUS)
 * Pradeep Alva (NUS)
 
-### Collaborators
-* Dr. Andrea Bartolini (ETH)
-
 ## Project structure and output
 The project is divided into XXX sections, each focusing on one aspect relevant to XXX.
 
