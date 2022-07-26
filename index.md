@@ -44,6 +44,7 @@ The digital twin comprises a user interface for real-time data visualization alo
 
 ### Building 3D model
 <img src="https://user-images.githubusercontent.com/18548065/180714022-f525e330-ef4b-46b4-9797-e699c10dd6fd.png" width="650" />
+
 The process starts with extracting 2D input shapefiles from OpenStreetMap (OSM). This process generally takes many iterations to check the validation of the data. It is possible that the OSM attributes do not correlate to physical reality. Hence, building typology and the number of floors were specifically checked and updated as required. The geometry from these shapefiles is two-dimensional (level of detail = 0), basically simple polygons of building footprints. Thus, the polygons were imported to FME with a default shapefile reader and extruded to their building heights. Later, a writer was used to convert the 3D geometry into CityGML and Cesium 3D Tile format. Detailed IFC-BIM models (LOD3) of a few buildings on campus were combined with the rest of the model (LOD1) using an IFC to CityGML work pipeline).
 
 All the converted 3D tiles were used to create the web map application as the digital twin dashboard. In addition, time-based sensor data stored in the InfluxDB cloud (an open-source cloud-native serverless platform) was accessed through a robust API to display high-frequency building information. This real-time sensor data was acquired from weather stations installed in campus. These capture indoor temperature, humidity etc. at a 10-minute frequency. Finally, Highcharts (a multiplatform charting JavaScript library) was used to display the simulation results and live data interactively on the dashboard (Chaturvedi & Kolbe, 2019; Würstle et al., 2020).
@@ -53,6 +54,7 @@ All the converted 3D tiles were used to create the web map application as the di
 
 ### Energy demand model
 <img src="https://user-images.githubusercontent.com/18548065/180712380-8a4a074f-7a28-4bba-9de5-c28d956768bb.png" width="400" />
+
 In order to project future demands in the case study district under different scenarios, a building energy demand model of the case study area was developed using the open-source tool [City Energy Analyst (CEA)](cityenergyanalyst.com). This tool was selected due to its lightweight energy demand model and simplified inputs. This software has previously been used to assess the effects of local climate and changes in occupancy patterns on energy demand, both desirable characteristics in this project.
 
 Since detailed information about the building envelope and system operation were not available, these parameters were assigned using brute force optimization with discrete input parameters obtained from the CEA archetypes database. The parameters to be calibrated were selected from a previous sensitivity analysis of the tool's thermal models. Each combination of parameters was assessed by the coefficient of variation of root-mean square error (CV(RMSE)) using hourly measurements of electricity and cooling demand. The calibrated model was found to perform adequately for the majority of the buildings, with the expectation of improved model performance as further data are collected.
@@ -63,6 +65,7 @@ Since detailed information about the building envelope and system operation were
 
 ### Building occupant modeling
 <img src="https://user-images.githubusercontent.com/18548065/180719435-f171fdcd-4ff7-48d8-ac58-cedad4683965.png" width="650" />
+
 Occupant presence was first estimated using WiFi connection counts from each building in the case study. k-means clustering was used to assign typical WiFi connection profiles to each day of the year, generating a yearly profile of occupancy that differentiated between weekdays, weekends, and public holidays, as well as between semesters and holiday periods.
 
 The measured electricity loads were then used to fit a regression model to estimate electricity demand as a function of time of day and building occupancy. These occupant profiles and electricity demand schedules are then inputted back into the building energy demand model for the thermal load calculation.
@@ -74,6 +77,7 @@ In order to analyze the relationship between occupants' thermal comfort and acti
 
 ### Digital twin dashboard and data visualization
 <img src="https://user-images.githubusercontent.com/18548065/180699210-ad956bba-2c69-4f9d-8177-3444abed5e1f.JPG" width="650" />
+
 We are developing a digital twin platform for decision making through a web application for NUS campus with around 300 buildings. The platform provides 3D visualisations of the buildings and energy infrastructure on campus, real-time data from sensors, energy demand simulation results, occupancy rates, and scenario visualizations.
 
 The digital twin dashboard is set up using XAMPP (an open-source cross-platform web server solution stack package) for testing. The campus model in 3D Tile format and the metadata acquired from energy demand simulations are used for styling in JavaScript. Further visualisation is customised within JavaScript as specified in Cesium 3D Tile format.
