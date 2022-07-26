@@ -15,7 +15,7 @@ This project is carried out as part of [Future Resilient Systems Module 1.4 "Dig
 * National Research Foundation Singapore (NRF)
 
 ### Collaborators
-* ETH Zürich
+* Singapore-ETH Centre
 
 ## Objective
 With the increasing frequency and magnitude of major disruptive events in urban areas, the resilience of the built environment against climate change impacts and associated disruptions has received increasing attention in recent years [1]. As a low-lying, tropical island with a hot and humid climate, Singapore is particularly vulnerable to the impact of climate change [2]. In order to mitigate the effects of climate change on building occupants' health and well-being, resilient cooling is of principal importance to maintain indoor environmental quality against unexpected events such as extreme weather conditions, heat waves, and power outages [3]. Such vulnerabilities have been compounded by the COVID-19 pandemic and the societal shifts it has caused, leading to changes in the way energy is used and therefore putting further stress on existing energy infrastructure.
