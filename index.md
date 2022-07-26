@@ -35,7 +35,7 @@ The present project seeks to study how both buildings and energy systems can hel
 * Dr. Martín Mosteiro-Romero (NUS, FRS)
 * Pradeep Alva (NUS, FRS)
 
-### Research fellows
+### Collaborators
 * Prof. Adrian Chong (NUS)
 * Prof. Filip Biljecki (NUS)
 
