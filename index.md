@@ -1,11 +1,12 @@
 [![DT_fast_icon](https://user-images.githubusercontent.com/18548065/180711420-8e03247e-5803-4943-8a48-6b4e856b974f.png)](https://player.vimeo.com/video/733100345)
-[Future Resilient Systems website](https://frs.ethz.ch/research/cyber-physical-systems/digital-twin-enabled-system-resilience.html)
 
 ## Project duration
 
 1 March 2021 - 30 September 2024
 
 ## Stakeholders
+This project is carried out as part of [Future Resilient Systems Module 1.4 "Digital Twin-Enabled System Resilience"](https://frs.ethz.ch/research/cyber-physical-systems/digital-twin-enabled-system-resilience.html).
+
 ### Execution
 * National University of Singapore (NUS)
 * Future Resilient Systems (FRS)
@@ -17,7 +18,13 @@
 * ETH Zürich
 
 ## Objective
+With the increasing frequency and magnitude of major disruptive events in urban areas, the resilience of the built environment against climate change impacts and associated disruptions has received increasing attention in recent years [1]. As a low-lying, tropical island with a hot and humid climate, Singapore is particularly vulnerable to the impact of climate change [2]. In order to mitigate the effects of climate change on building occupants' health and well-being, resilient cooling is of principal importance to maintain indoor environmental quality against unexpected events such as extreme weather conditions, heat waves, and power outages [3]. Such vulnerabilities have been compounded by the COVID-19 pandemic and the societal shifts it has caused, leading to changes in the way energy is used and therefore putting further stress on existing energy infrastructure.
 
+As a demonstrator for a digital-twin enabled approach to district energy resilience, a digital twin of a university campus in Singapore is under development. The campus comprises around 300 buildings including a variety of building use types such as classrooms, laboratories, offices and residential buildings as well as a variety of amenities. The area is currently served by a number of district cooling networks of different scales. The digital twin will form the basis for a new approach to evaluate the vulnerability, efficiency, and resilience of future urban districts in the tropics.
+
+A digital twin is a virtual representation of a physical system (and its associated environment and processes) that is updated through the exchange of information between the physical and virtual systems [4]. Originating in the aerospace field, the digital twin concept has found applications in a number of different sectors, including health, meteorology, manufacturing and process technology, education, cities, transportation, and energy [5]. A number of works in the literature have focused on the development of digital twins to aid urban planning and citizen engagement [6, 7, 8, 9]. Digital twins have also found applications in district energy systems, particularly in system planning [10], energy management and optimization [11], and model predictive control [12, 13].
+
+The present project seeks to study how both buildings and energy systems can help build resilience through coupling advanced numerical models and real-time data. As a first step in the development of this framework for district energy resilience, this paper focuses on the digital twin of the built environment. Previous work shows heat waves, power outages, and pandemics are some of the main types of disruptions affecting the built environment [3]. In order to demonstrate the possibilities of the approach presented, the long-term effects of climate change and the shift to increasingly working from home after the COVID-19 pandemic on the energy demands of a district were selected as test cases for this project.
 
 ## Team
 ### Principal Investigators
