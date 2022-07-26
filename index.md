@@ -32,8 +32,8 @@ The present project seeks to study how both buildings and energy systems can hel
 * Prof. Clayton Miller (co-PI, NUS Department of the Built Environment)
 
 ### Research fellows
-* Dr. Martín Mosteiro-Romero (NUS)
-* Pradeep Alva (NUS)
+* Dr. Martín Mosteiro-Romero (NUS, FRS)
+* Pradeep Alva (NUS, FRS)
 
 ### Research fellows
 * Prof. Adrian Chong (NUS)
