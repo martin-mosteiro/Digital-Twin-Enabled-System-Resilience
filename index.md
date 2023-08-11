@@ -1,5 +1,3 @@
-[![DT_fast_icon](https://user-images.githubusercontent.com/18548065/180711420-8e03247e-5803-4943-8a48-6b4e856b974f.png)](https://player.vimeo.com/video/733100345)
-
 ## Project duration
 
 1 March 2021 - 30 September 2024
@@ -53,7 +51,7 @@ All the converted 3D tiles were used to create the web map application as the di
 * Alva P., Mosteiro-Romero M., Miller C., and Stouffs R., 2022. “Digital twin-based resilience evaluation of district-scale archetypes: A COVID-19 scenario case study using a university campus pilot”. In: _POST-CARBON, Proceedings of the 27th CAADRIA Conference_, Sydney, Australia, April 9-15 2022, vol 1, pp. 525-534. [Full text](https://www.researchgate.net/publication/359935310_Digital_twin-based_resilience_evaluation_of_district-scale_archetypes_A_COVID-19_scenario_case_study_using_a_university_campus_pilot).
 
 ### Energy demand model
-<img src="https://user-images.githubusercontent.com/18548065/180712380-8a4a074f-7a28-4bba-9de5-c28d956768bb.png" width="400" />
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0360132323003451-gr1_lrg.jpg" width="650" />
 
 In order to project future demands in the case study district under different scenarios, a building energy demand model of the case study area was developed using the open-source tool [City Energy Analyst (CEA)](cityenergyanalyst.com). This tool was selected due to its lightweight energy demand model and simplified inputs. This software has previously been used to assess the effects of local climate and changes in occupancy patterns on energy demand, both desirable characteristics in this project.
 
@@ -61,7 +59,7 @@ Since detailed information about the building envelope and system operation were
 
 #### Publications
 * Mosteiro-Romero, M., Alva, P., Miller, C. and Stouffs, R., 2022. “Towards occupant-driven district energy system operation: A digital twin platform for energy resilience and occupant well-being." In: _PLEA 2022: Will Cities Survive?_, Santiago, Chile, November 23–25 2020. [Full text](https://www.researchgate.net/publication/365899064_Towards_occupant-driven_district_energy_system_operation_A_digital_twin_platform_for_energy_resilience_and_occupant_well-being).
-* Mosteiro-Romero M., Miller C., Chong A., and Stouffs R., 2022. "Elastic buildings: Calibrated district-scale simulation of occupant-flexible campus operation for hybrid work optimization". Submitted to _Building and Environment_. [Preprint](https://arxiv.org/abs/2210.06124).
+* Mosteiro-Romero M., Miller C., Chong A., and Stouffs R., 2023. "Elastic buildings: Calibrated district-scale simulation of occupant-flexible campus operation for hybrid work optimization". _Building and Environment_ 237: 110318. [Full text](https://doi.org/10.1016/j.buildenv.2023.110318).
 
 ### Building occupant modeling
 <img src="https://user-images.githubusercontent.com/18548065/180719435-f171fdcd-4ff7-48d8-ac58-cedad4683965.png" width="650" />
@@ -70,15 +68,16 @@ Occupant presence was first estimated using WiFi connection counts from each bui
 
 The measured electricity loads were then used to fit a regression model to estimate electricity demand as a function of time of day and building occupancy. These occupant profiles and electricity demand schedules are then inputted back into the building energy demand model for the thermal load calculation.
 
-In order to analyze the relationship between occupants' thermal comfort and activity location choices, an agent-based model of building occupants as campus scale is being developed. The collected WiFi data is being used to extract activity patterns of the users of the campus. These are being coupled with data from field studies in NUS on occupants' feedback on their thermal preferences collected through the [Cozie app](https://cozie.app/). These data are being used to analyze occupants' thermal comfort behavior decisions on campus. The campus-scale agent-based model will allow us to explore occupant comfort in the building stock and let occupants' thermal comfort be the driver of the types of choices in activity location that we have so far determined using a top-down approach.
+<img width="400" alt="Screenshot 2023-08-11 at 6 36 25 PM" src="https://github.com/martin-mosteiro/Digital-Twin-Enabled-System-Resilience/assets/18548065/574db3b1-0000-4e53-a741-93a75dbc2aa2">
+
+In order to analyze the relationship between occupants' thermal comfort and activity location choices, an agent-based model of building occupants as campus scale was developed. The collected WiFi data was used to extract activity patterns of the users of the campus. These were coupled with data from field studies in NUS on occupants' feedback on their thermal preferences collected through the [Cozie app](https://cozie.app/). These data were then used to analyze occupants' thermal comfort behavior decisions on campus. The campus-scale agent-based model allows to explore occupant comfort in the building stock and let occupants' thermal comfort be the driver of the types of choices in activity location that we have so far determined using a top-down approach.
 
 #### Publications
-* Mosteiro-Romero M., Miller C., Chong A., and Stouffs R., 2022. "Elastic buildings: Calibrated district-scale simulation of occupant-flexible campus operation for hybrid work optimization". Submitted to _Building and Environment_. [Preprint](https://arxiv.org/abs/2210.06124).
-* Mosteiro-Romero M., Quintana M., Miller C., Chong A., and Stouffs R. "A data-driven agent based model of occupants’ thermal comfort behaviors for the planning of district-scale flexible work arrangements". In writing.
+* Mosteiro-Romero M., Miller C., Chong A., and Stouffs R., 2023. "Elastic buildings: Calibrated district-scale simulation of occupant-flexible campus operation for hybrid work optimization". _Building and Environment_ 237: 110318. [Full text](https://doi.org/10.1016/j.buildenv.2023.110318).
+* Mosteiro-Romero M., Quintana M., Miller C., Chong A., and Stouffs R. (2023) "Leveraging campus-scale WiFi data for activity-based occupant modeling in urban energy applications". Accepted for _CISBAT 2023_.
 
 ### Digital twin dashboard and data visualization
 <img src="https://user-images.githubusercontent.com/18548065/180699210-ad956bba-2c69-4f9d-8177-3444abed5e1f.JPG" width="650" />
-
 We are developing a digital twin platform for decision making through a web application for NUS campus with around 300 buildings. The platform provides 3D visualisations of the buildings and energy infrastructure on campus, real-time data from sensors, energy demand simulation results, occupancy rates, and scenario visualizations.
 
 The digital twin dashboard is set up using XAMPP (an open-source cross-platform web server solution stack package) for testing. The campus model in 3D Tile format and the metadata acquired from energy demand simulations are used for styling in JavaScript. Further visualisation is customised within JavaScript as specified in Cesium 3D Tile format.
@@ -90,7 +89,11 @@ The dashboard display can switch between scenes thematically based on building t
 
 ## Other publications
 * Alva P., Biljecki F., and Stouffs R., 2022. "Use cases for district-scale digital twins”. In: _The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, Volume XLVIII-4/W4-202217th 3D GeoInfo Conference_, Sydney, Australia, 19-21 October 2022, pp. 5-12. [Full text](https://www.researchgate.net/publication/364579393_USE_CASES_FOR_DISTRICT-SCALE_URBAN_DIGITAL_TWINS).
+* Mosteiro-Romero M., Alva P., Miller C., and Stouffs R., 2022. "Urban System Resilience through a Digital Twin-enabled Approach". In: _World Cities Summit 2022: Science of Cities Symposium Abstract Proceedings_, 31 July 2022, Singapore. [Proceedings](https://www.worldcitiessummit.com.sg/qql/slot/u511/Programme/SOC/WCS%20Science%20of%20Cities%20Symposium%20Abstracts%20Proceedings.pdf). [Poster](https://www.worldcitiessummit.com.sg/qql/slot/u511/Programme/SOC/Posters/SOCS%20WCS%202022%20Poster%2020.jpg).
+* Bartolini A., Costa A., Kang J., Mosteiro-Romero M., and Wu Z., 2022. "Can Demand-side Management Save Space for Solar PV Installation? A case study within the NUS campus, Singapore". In: _World Cities Summit 2022: Science of Cities Symposium Abstract Proceedings_, 31 July 2022, Singapore. [Proceedings](https://www.worldcitiessummit.com.sg/qql/slot/u511/Programme/SOC/WCS%20Science%20of%20Cities%20Symposium%20Abstracts%20Proceedings.pdf). [Poster](https://www.worldcitiessummit.com.sg/qql/slot/u511/Programme/SOC/Posters/SOCS%20WCS%202022%20Poster%2021.jpg).
 * Alva P., Mosteiro-Romero M., Pei W., Bartolini A., Yuan C., Stouffs R., 2023. "Bottom-up Approach for Creating an Urban Digital Twin Platform and Use Cases. In: _HUMAN-CENTRIC, Proceedings of the 28th International Conference of the Association for Computer Aided Architectural Design Research in Asia (CAADRIA)_, Ahmedabad, India, March 2023, vol 1, pp. 605-614. [Full text](https://www.researchgate.net/publication/369416155_Bottom-up_Approach_for_Creating_an_Urban_Digital_Twin_Platform_and_Use_Cases).
+* Alva P., Mosteiro-Romero M., and Stouffs R., 2023. "A global bottom-up approach to create Urban Digital Twins (UDT): Mitigating greenhouse gas (GHG) emissions". In: _Science of Cities Symposium 2023_, 5 October 2023, Singapore.
+* Kang J., Mosteiro-Romero M., Fu Y., and Waibel C., 2023. "Accelerating PV Adoption in Singapore: The Potential of Advanced Energy Community". In: _Science of Cities Symposium 2023_, 5 October 2023, Singapore.
 
 ## Acknowledgments
 The research was conducted at the Singapore-ETH Centre, which was established collaboratively between ETH Zürich and the National Research Foundation Singapore. This research is supported by the National Research Foundation, Prime Minister's Office, Singapore under its Campus for Research Excellence and Technological Enterprise (CREATE) program.
